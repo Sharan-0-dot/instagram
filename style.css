@@ -1,0 +1,229 @@
+* {
+    padding: 0px;
+    margin : 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+#container {
+    width : 350px;
+    height : 2050px;
+    background-color: black;
+
+}
+
+/* navbar style */
+
+#navbar {
+    width : 350px;
+    height : 60px;
+    border : none;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: 40px;
+    width : 150px;
+    background-image: url(instagram_logo.jpg);
+    background-size: cover;
+}
+
+#activities {
+    height : 30px;
+    width : 50px;
+    margin-left : 100px;
+    border : none;
+    background-image: url(activity.jpg);
+    background-size: cover;
+}
+
+#notification {
+    height : 40px;
+    width : 40px;
+    border : none;
+    background-image: url(notification.jpg);
+    background-size: cover;
+}
+
+/* story bar */
+
+#storybar {
+    height: 90px;
+    width : 350px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    height : 70px;
+    width : 70px;
+    border : 3px solid rgb(247, 9, 136);
+    border-radius: 50%;
+    margin-right: 9px;
+}
+
+.one {
+    background-image: url(virat.jpg);
+    background-size: cover;
+}
+
+.two {
+    background-image: url(marc.jpg);
+    background-size: cover;
+}
+
+.three {
+    background-image: url(ronaldo.jpg);
+    background-size: cover;
+}
+
+.four {
+    background-image: url(ishow.jpg);
+    background-size: cover;
+}
+/* story name */
+
+#storyname {
+    height : 20px;
+    width : 350px;
+    border: none;
+    color : white;
+    display : flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    font-size: small;
+    font-weight: 100;
+    margin-right : 10px;
+}
+
+/* post */
+
+.post {
+    height: 460px;
+    width : 350px;
+    border : none;
+}
+
+.postDetails {
+    height : 40px;
+    width : 350px;
+    border : none;
+    display : flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color : white;
+    font-size: small;
+}
+
+.profile {
+    height : 30px;
+    width : 30px;
+    border : 1px solid rgb(247, 9, 136);
+    border-radius: 50%;
+    margin-left : 10px;
+}
+
+.first {
+    background-image: url(marc.jpg);
+    background-size: cover;
+}
+
+.second {
+    background-image: url(virat.jpg);
+    background-size: cover;
+}
+
+.third {
+    background-image: url(ishow.jpg);
+    background-size: cover;
+}
+
+.fourth {
+    background-image: url(ronaldo.jpg);
+    background-size: cover;
+}
+
+.dot {
+    height : 23px;
+    width : 23px;
+    border : none;
+    background-image: url(dot.jpg);
+    background-size: cover;
+    margin-left : 190px;
+}
+
+.photo {
+    height: 350px;
+    width : 350px;
+}
+
+.postActivity {
+    height : 45px;
+    width : 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#likebut {
+    height : 30px;
+    width : 40px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(activity.jpg);
+    background-size: cover;
+}
+
+#coment {
+    height : 40px;
+    width : 40px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    margin-left : 10px;
+    background-image: url(coment.jpg);
+    background-size: cover;
+}
+
+#sharebut {
+    height : 40px;
+    width : 40px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(share.jpg);
+    background-size: cover;
+}
+
+#savebut {
+    height : 30px;
+    width : 30px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    margin-left : 170px;
+    background-color: white;
+    background-image: url(save.jpg);
+    background-size: cover;
+}
+
+.postdiscription {
+    color : white;
+    display: flex;
+    align-items: center;
+    font-size: small;
+    font-weight: 100;
+}
